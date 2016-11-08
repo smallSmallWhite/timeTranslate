@@ -36,7 +36,7 @@ class ScrollViewViewController: UIViewController,UITableViewDelegate,UITableView
   func initHeaderView() {
     
     icarousel = iCarousel.init(frame: CGRectMake(0, 0, screenW, 150))
-    icarousel.type = .InvertedTimeMachine
+    icarousel.type = .CoverFlow
     icarousel.bounces = true
     icarousel.delegate = self
     icarousel.dataSource = self
@@ -63,7 +63,7 @@ class ScrollViewViewController: UIViewController,UITableViewDelegate,UITableView
   }
   func carousel(carousel: iCarousel, viewForItemAtIndex index: Int, reusingView view: UIView?) -> UIView {
     
-    let imageView = FXImageView(frame: CGRectMake(100, 100, 200, 200))
+    let imageView = FXImageView(frame: CGRectMake(0, 0, 200, 200))
     imageView.image = UIImage(named: String(format: "%@", (imagesArray[index] as? String)!))
     imageView.contentMode = .ScaleAspectFit
     imageView.asynchronous = true
@@ -72,6 +72,7 @@ class ScrollViewViewController: UIViewController,UITableViewDelegate,UITableView
     imageView.reflectionGap = 10.0
     imageView.shadowOffset = CGSizeMake(0.0, 2.0)
     imageView.shadowBlur = 5.0
+    imageView.layer.cornerRadius = 10
     return imageView
   }
   //MARK:timer
@@ -79,12 +80,10 @@ class ScrollViewViewController: UIViewController,UITableViewDelegate,UITableView
     
     var index = icarousel.currentItemIndex
     index = index + 1
-    if index == self.imagesArray.count + 1 {
+    if index == self.imagesArray.count {
       //最后一张图片的时候，跳转到第一张
       index = 0
     }
     self.icarousel.scrollToItemAtIndex(index, animated: true)
-
   }
-
 }
