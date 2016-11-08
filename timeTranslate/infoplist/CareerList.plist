@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>服务业</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>导游</string>
+				<string>快递员（含外卖）</string>
+				<string>美容美发</string>
+				<string>家政服务</string>
+				<string>婚庆摄影</string>
+				<string>运动健身</string>
+			</array>
+		</dict>
+		<key>餐饮出行</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>厨师</string>
+				<string>服务员</string>
+				<string>收银</string>
+				<string>导购</string>
+				<string>保安</string>
+				<string>乘务人员</string>
+				<string>驾驶员</string>
+				<string>航空人员</string>
+				<string>空乘</string>
+			</array>
+		</dict>
+		<key>工业制造</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>技术研发</string>
+				<string>技工</string>
+				<string>质检</string>
+				<string>建筑工人</string>
+				<string>装修工人</string>
+				<string>建筑设计师</string>
+			</array>
+		</dict>
+		<key>政府组织</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>公务员</string>
+				<string>事业单位</string>
+				<string>军人</string>
+				<string>律师</string>
+				<string>警察</string>
+				<string>国企工作者</string>
+				<string>运动员</string>
+			</array>
+		</dict>
+		<key>医疗生物</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>医生</string>
+				<string>护士</string>
+				<string>宠物医生</string>
+				<string>医学研究</string>
+			</array>
+		</dict>
+		<key>教育培训</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>学生</string>
+				<string>留学生</string>
+				<string>大学生</string>
+				<string>研究生</string>
+				<string>博士</string>
+				<string>科研人员</string>
+				<string>教师</string>
+			</array>
+		</dict>
+		<key>金融</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>咨询</string>
+				<string>投行</string>
+				<string>保险</string>
+				<string>金融分析</string>
+				<string>财务</string>
+				<string>风险管理</string>
+				<string>风险投资人</string>
+			</array>
+		</dict>
+		<key>文化传媒</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>编辑策划</string>
+				<string>记者</string>
+				<string>艺人</string>
+				<string>经纪人</string>
+				<string>媒体工作者</string>
+			</array>
+		</dict>
+		<key>IT互联网</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>开发工程师</string>
+				<string>测试工程师</string>
+				<string>设计师</string>
+				<string>运营师</string>
+				<string>产品经理</string>
+				<string>风控安全</string>
+				<string>个体/网站</string>
+			</array>
+		</dict>
+		<key>通用岗位</key>
+		<dict>
+			<key>item0</key>
+			<array>
+				<string>销售</string>
+				<string>市场</string>
+				<string>人力资源</string>
+				<string>行政</string>
+				<string>公关</string>
+				<string>客服</string>
+				<string>采购</string>
+				<string>技工</string>
+				<string>公司职员</string>
+				<string>职业经理人</string>
+				<string>私营企业主</string>
+				<string>中层管理者</string>
+				<string>自由职业者</string>
+			</array>
+		</dict>
+	</dict>
+</array>
+</plist>

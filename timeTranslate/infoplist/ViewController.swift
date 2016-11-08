@@ -16,6 +16,31 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
   override func viewDidLoad() {
     super.viewDidLoad()
     self.navigationItem.title = "地区"
+//    let path = NSBundle.mainBundle().pathForResource("CareerList", ofType: "plist")
+//    let data1 = NSMutableArray.init(contentsOfFile: path!)
+//    for i in 0..<data1!.count {
+//      
+//      let array = data1![i].objectForKey("通用岗位")
+//      let array1 = data1![i].objectForKey("服务业")
+//      let array2 = data1![i].objectForKey("工业制造")
+//      let array3 = data1![i].objectForKey("政府组织")
+//       let array4 = data1![i].objectForKey("医疗生物")
+//       let array5 = data1![i].objectForKey("教育培训")
+//       let array6 = data1![i].objectForKey("金融")
+//       let array7 = data1![i].objectForKey("文化传媒")
+//       let array8 = data1![i].objectForKey("IT互联网")
+//       dataSource.addObject(array!)
+//      
+//    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     //获取文件路径
     let filePath = NSBundle.mainBundle().pathForResource("PropertyList", ofType: "plist")
     let data = NSMutableArray.init(contentsOfFile: filePath!)
