@@ -1,0 +1,6 @@
+framework module Pods_timeTranslate {
+  umbrella header "Pods-timeTranslate-umbrella.h"
+
+  export *
+  module * { export * }
+}

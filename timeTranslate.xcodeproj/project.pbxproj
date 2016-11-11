@@ -15,6 +15,7 @@
 		0D5FAA271DC5C5600055CD4F /* timeTranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FAA261DC5C5600055CD4F /* timeTranslateTests.swift */; };
 		0D5FAA321DC5C5600055CD4F /* timeTranslateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FAA311DC5C5600055CD4F /* timeTranslateUITests.swift */; };
 		0D5FAA401DC5C6220055CD4F /* TranslateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FAA3F1DC5C6220055CD4F /* TranslateTime.swift */; };
+		9F48E686C2E8AD1C111F6508 /* Pods_timeTranslate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CB6EED4D54CD7F73B6442F /* Pods_timeTranslate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		0D5FAA311DC5C5600055CD4F /* timeTranslateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeTranslateUITests.swift; sourceTree = "<group>"; };
 		0D5FAA331DC5C5600055CD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D5FAA3F1DC5C6220055CD4F /* TranslateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateTime.swift; sourceTree = "<group>"; };
+		42CB6EED4D54CD7F73B6442F /* Pods_timeTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timeTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805CA324CB96F1C9969FB85B /* Pods-timeTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timeTranslate.release.xcconfig"; path = "Pods/Target Support Files/Pods-timeTranslate/Pods-timeTranslate.release.xcconfig"; sourceTree = "<group>"; };
+		AA95646A87462A26831C0F37 /* Pods-timeTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timeTranslate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-timeTranslate/Pods-timeTranslate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F48E686C2E8AD1C111F6508 /* Pods_timeTranslate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				0D5FAA251DC5C5600055CD4F /* timeTranslateTests */,
 				0D5FAA301DC5C5600055CD4F /* timeTranslateUITests */,
 				0D5FAA0F1DC5C55E0055CD4F /* Products */,
+				ED81D03C8FDF882A75CEDFAD /* Pods */,
+				AFA9A3E23D49F3DCAFD38424 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +135,23 @@
 			path = timeTranslateUITests;
 			sourceTree = "<group>";
 		};
+		AFA9A3E23D49F3DCAFD38424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42CB6EED4D54CD7F73B6442F /* Pods_timeTranslate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED81D03C8FDF882A75CEDFAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA95646A87462A26831C0F37 /* Pods-timeTranslate.debug.xcconfig */,
+				805CA324CB96F1C9969FB85B /* Pods-timeTranslate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D5FAA361DC5C5600055CD4F /* Build configuration list for PBXNativeTarget "timeTranslate" */;
 			buildPhases = (
+				F853E55A88BD6DB1EF7A5206 /* [CP] Check Pods Manifest.lock */,
 				0D5FAA0A1DC5C55E0055CD4F /* Sources */,
 				0D5FAA0B1DC5C55E0055CD4F /* Frameworks */,
 				0D5FAA0C1DC5C55E0055CD4F /* Resources */,
+				CDCB94DD8BFE9EEBB2E4B8B8 /* [CP] Embed Pods Frameworks */,
+				B76471142BE26577F617EBD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B76471142BE26577F617EBD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-timeTranslate/Pods-timeTranslate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDCB94DD8BFE9EEBB2E4B8B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-timeTranslate/Pods-timeTranslate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F853E55A88BD6DB1EF7A5206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D5FAA0A1DC5C55E0055CD4F /* Sources */ = {
@@ -403,6 +478,7 @@
 		};
 		0D5FAA371DC5C5600055CD4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA95646A87462A26831C0F37 /* Pods-timeTranslate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = timeTranslate/Info.plist;
@@ -414,6 +490,7 @@
 		};
 		0D5FAA381DC5C5600055CD4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805CA324CB96F1C9969FB85B /* Pods-timeTranslate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = timeTranslate/Info.plist;
@@ -488,6 +565,7 @@
 				0D5FAA381DC5C5600055CD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D5FAA391DC5C5600055CD4F /* Build configuration list for PBXNativeTarget "timeTranslateTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +574,7 @@
 				0D5FAA3B1DC5C5600055CD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D5FAA3C1DC5C5600055CD4F /* Build configuration list for PBXNativeTarget "timeTranslateUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +583,7 @@
 				0D5FAA3E1DC5C5600055CD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
